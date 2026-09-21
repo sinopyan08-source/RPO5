@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato";
 }
 
 /* HEADER */
@@ -122,6 +123,29 @@
     width: 1140px;
     height: 180px;
     background-image: linear-gradient(rgba(33, 22, 22, 0.5), rgba(33, 22, 22, 0.5)),  url(img/offer4.png);
+}
+
+.offer__small1, .offer__small2, .offer__small3, .offer__big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+/* .offer__center div div p{
+    font-size: 16px;
+    color : #fff
+} */
+
+.offer__small_p{
+    font-size:16px;
+    color:#ffffff;
+}
+.offer__small_p2{
+    font-size:24px;
+    color: #F16D7F;
 }
 
 
