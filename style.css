@@ -151,7 +151,7 @@
 
 /* PRODUCTS */
 .section__products {
-    height: 300px;
+    /* height: 300px; */
     background: #fff;
 }
 .section__feature {
@@ -167,4 +167,34 @@
 .footer__bottom {
     height: 79px;
     background: #222224;
+}
+
+.products_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.products_box{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 30px;
+}
+
+.products_items{
+     width: 360px;
+    height: 520px ;
+}
+.products_items_img {
+    width: 360px;
+    height: 420px ;
+    background-image: url(img/product1.png);
+
+}
+
+.products_content{
+    text-align: left;
 }
